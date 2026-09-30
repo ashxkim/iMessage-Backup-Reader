@@ -11,6 +11,16 @@ Download the app ZIP from [GitHub Releases](https://github.com/ashxkim/iMessage-
 - The prebuilt app uses libraries included with macOS. **You do not need Xcode, Homebrew, Python, or Terminal to run it.** GitHub's automatic “Source code” downloads are for building the app yourself.
 - Current builds are ad-hoc signed, **not Apple-notarized**. macOS may block the initial launch. If you trust this project, follow [Apple's instructions for opening an unnotarized app](https://support.apple.com/en-us/102445), using **System Settings → Privacy & Security → Open Anyway** when offered. Do not disable Gatekeeper globally.
 
+## Screenshots
+
+Browse conversations and check a backup before relying on it. Phone numbers, private message text, backup paths, and exact message timestamps are obscured in these screenshots for privacy.
+
+![Conversation browser with a searchable sidebar and message timeline; private content obscured](docs/screenshots/conversations.png)
+
+| Choose a backup | Check backup details |
+| --- | --- |
+| ![Welcome screen for choosing a Messages backup folder](docs/screenshots/welcome.png) | ![Backup details showing record counts, database status, and attachment checks; private information obscured](docs/screenshots/backup-details.png) |
+
 ## Back up `~/Library/Messages`
 
 This app reads a **Mac's local Messages folder**. It does not create a backup itself, download your iCloud history, or read an encrypted iPhone/Finder backup.
