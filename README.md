@@ -2,6 +2,9 @@
 
 A small, offline Mac app for browsing Messages backups on an SD card or external drive. Read conversations, open attachments, and check your backup. Your original files stay unchanged.
 
+ashley's note: ok so this is basically a program that lets you visually read saved iMessages from the raw data. you copy your ~/Library/Messages folder from your Mac (or iPhone), then the program will allow you to open that copy (aka your saved backup). pls read the rest of the readme to learn how to backup ur iMessages. note that this program will ask for security permissions to run on ur Mac, but like this rlly just keeps the messages in your local storage, it's not like it uploads it to be stored in some other cloud or anything, all ur data stays only within your computer. 
+you might be asking, why is this necessary? i don't wanna pay more to keep 25GB of messages that i've been hoarding since 2018 just in case I might need to look back on my texts between me & my loved ones one day. 
+
 ## Download
 
 **[Download the latest release](https://github.com/ashxkim/iMessage-Backup-Reader/releases/latest)** — macOS 13 or later. **No Xcode required.**
